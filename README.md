@@ -109,7 +109,7 @@ ruff check .
 pytest
 ```
 
-`ruff check .` lints the package and the tests. `pytest` runs the suite in `tests/`. Continuous integration runs both on Python 3.8, 3.9, 3.10, 3.11, 3.12, and 3.13.
+`ruff check .` lints the package and the tests. `pytest` runs the suite in `tests/`. Continuous integration runs both on Python 3.8 and 3.9 (Ubuntu 22.04) and on Python 3.10, 3.11, 3.12, and 3.13 (`ubuntu-latest`).
 
 ## License
 
